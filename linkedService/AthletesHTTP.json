@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://raw.githubusercontent.com/nkeenu/azure-tokyo-olympics/main/data/",
+			"url": "https://raw.githubusercontent.com/nkeenu/azure-tokyo-olympics/main/data/Athletes.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
