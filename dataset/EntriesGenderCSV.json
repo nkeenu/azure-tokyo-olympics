@@ -1,0 +1,22 @@
+{
+	"name": "EntriesGenderCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TokyoOlympicsDataHTTP",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "EntriesGender.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
